@@ -1,0 +1,36 @@
+
+> skills-avaliator@0.1.0 build C:\Users\jheov\OneDrive\Documents\Projetos\skills-avaliator
+> next build
+
+  ▲ Next.js 14.2.1
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/12) ...
+   Generating static pages (3/12) 
+   Generating static pages (6/12) 
+   Generating static pages (9/12) 
+ ✓ Generating static pages (12/12)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                              Size     First Load JS
+┌ ○ /                                    480 B          87.3 kB
+├ ○ /_not-found                          871 B          87.7 kB
+├ ○ /dashboard                           157 B            87 kB
+├ ○ /departments                         157 B            87 kB
+├ ○ /newEvaluation                       157 B            87 kB
+├ ○ /permissions                         157 B            87 kB
+├ ○ /skills                              157 B            87 kB
+├ ○ /typeOfEvaluation                    157 B            87 kB
+└ ○ /users                               157 B            87 kB
++ First Load JS shared by all            86.8 kB
+  ├ chunks/427-cca4f822fbe6c18b.js       31.3 kB
+  ├ chunks/4ff0b8ec-3ecdf0631af8fbde.js  53.6 kB
+  └ other shared chunks (total)          1.86 kB
+
+
+○  (Static)  prerendered as static content
+
